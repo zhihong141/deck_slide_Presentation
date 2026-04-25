@@ -477,19 +477,23 @@
         }
 
         .presentation-btn {
-            padding: 12px;
-            aspect-ratio: 1;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             color: white;
-            font-size: 16px;
+            font-size: 28px;
+            line-height: 1;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             transition: all 0.3s;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
         }
 
         .presentation-btn:hover {
@@ -667,8 +671,8 @@
         </div>
         <div class="presentation-controls" id="presentationControls">
             <div class="presentation-nav">
-                <button class="presentation-btn" id="presentPrev">←</button>
-                <button class="presentation-btn" id="presentNext">→</button>
+                <button class="presentation-btn" id="presentPrev">‹</button>
+                <button class="presentation-btn" id="presentNext">›</button>
             </div>
             <div class="presentation-info">
                 <div class="presentation-counter" id="presentationCounter">1 / 0</div>
